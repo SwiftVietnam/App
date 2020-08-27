@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F51EED324F743FC0092925D /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F51EED224F743FC0092925D /* SafariView.swift */; };
+		7FCCA9A124AA6D8300C7A421 /* SwiftVietnamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCCA9A024AA6D8300C7A421 /* SwiftVietnamApp.swift */; };
+		7FCCA9A324AA6D8300C7A421 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCCA9A224AA6D8300C7A421 /* ContentView.swift */; };
+		7FCCA9A524AA6D8500C7A421 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FCCA9A424AA6D8500C7A421 /* Assets.xcassets */; };
+		7FCCA9A824AA6D8500C7A421 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FCCA9A724AA6D8500C7A421 /* Preview Assets.xcassets */; };
+		7FCCA9B324AA6D8500C7A421 /* SwiftVietnamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCCA9B224AA6D8500C7A421 /* SwiftVietnamTests.swift */; };
+		7FCCA9BE24AA6D8500C7A421 /* SwiftVietnamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCCA9BD24AA6D8500C7A421 /* SwiftVietnamUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FCCA9AF24AA6D8500C7A421 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FCCA99524AA6D8300C7A421 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FCCA99C24AA6D8300C7A421;
+			remoteInfo = SwiftVietnam;
+		};
+		7FCCA9BA24AA6D8500C7A421 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FCCA99524AA6D8300C7A421 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FCCA99C24AA6D8300C7A421;
+			remoteInfo = SwiftVietnam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F51EED224F743FC0092925D /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		7FCCA99D24AA6D8300C7A421 /* SwiftVietnam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftVietnam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FCCA9A024AA6D8300C7A421 /* SwiftVietnamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftVietnamApp.swift; sourceTree = "<group>"; };
+		7FCCA9A224AA6D8300C7A421 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7FCCA9A424AA6D8500C7A421 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FCCA9A724AA6D8500C7A421 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7FCCA9A924AA6D8500C7A421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FCCA9AE24AA6D8500C7A421 /* SwiftVietnamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftVietnamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FCCA9B224AA6D8500C7A421 /* SwiftVietnamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftVietnamTests.swift; sourceTree = "<group>"; };
+		7FCCA9B424AA6D8500C7A421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FCCA9B924AA6D8500C7A421 /* SwiftVietnamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftVietnamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FCCA9BD24AA6D8500C7A421 /* SwiftVietnamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftVietnamUITests.swift; sourceTree = "<group>"; };
+		7FCCA9BF24AA6D8500C7A421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FCCA99A24AA6D8300C7A421 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FCCA9AB24AA6D8500C7A421 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FCCA9B624AA6D8500C7A421 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FCCA99424AA6D8300C7A421 = {
+			isa = PBXGroup;
+			children = (
+				7FCCA99F24AA6D8300C7A421 /* SwiftVietnam */,
+				7FCCA9B124AA6D8500C7A421 /* SwiftVietnamTests */,
+				7FCCA9BC24AA6D8500C7A421 /* SwiftVietnamUITests */,
+				7FCCA99E24AA6D8300C7A421 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FCCA99E24AA6D8300C7A421 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FCCA99D24AA6D8300C7A421 /* SwiftVietnam.app */,
+				7FCCA9AE24AA6D8500C7A421 /* SwiftVietnamTests.xctest */,
+				7FCCA9B924AA6D8500C7A421 /* SwiftVietnamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FCCA99F24AA6D8300C7A421 /* SwiftVietnam */ = {
+			isa = PBXGroup;
+			children = (
+				7FCCA9A024AA6D8300C7A421 /* SwiftVietnamApp.swift */,
+				7FCCA9A224AA6D8300C7A421 /* ContentView.swift */,
+				7FCCA9A424AA6D8500C7A421 /* Assets.xcassets */,
+				7FCCA9A924AA6D8500C7A421 /* Info.plist */,
+				7FCCA9A624AA6D8500C7A421 /* Preview Content */,
+				7F51EED224F743FC0092925D /* SafariView.swift */,
+			);
+			path = SwiftVietnam;
+			sourceTree = "<group>";
+		};
+		7FCCA9A624AA6D8500C7A421 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7FCCA9A724AA6D8500C7A421 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7FCCA9B124AA6D8500C7A421 /* SwiftVietnamTests */ = {
+			isa = PBXGroup;
+			children = (
+				7FCCA9B224AA6D8500C7A421 /* SwiftVietnamTests.swift */,
+				7FCCA9B424AA6D8500C7A421 /* Info.plist */,
+			);
+			path = SwiftVietnamTests;
+			sourceTree = "<group>";
+		};
+		7FCCA9BC24AA6D8500C7A421 /* SwiftVietnamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7FCCA9BD24AA6D8500C7A421 /* SwiftVietnamUITests.swift */,
+				7FCCA9BF24AA6D8500C7A421 /* Info.plist */,
+			);
+			path = SwiftVietnamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FCCA99C24AA6D8300C7A421 /* SwiftVietnam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FCCA9C224AA6D8500C7A421 /* Build configuration list for PBXNativeTarget "SwiftVietnam" */;
+			buildPhases = (
+				7FCCA99924AA6D8300C7A421 /* Sources */,
+				7FCCA99A24AA6D8300C7A421 /* Frameworks */,
+				7FCCA99B24AA6D8300C7A421 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftVietnam;
+			productName = SwiftVietnam;
+			productReference = 7FCCA99D24AA6D8300C7A421 /* SwiftVietnam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7FCCA9AD24AA6D8500C7A421 /* SwiftVietnamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FCCA9C524AA6D8500C7A421 /* Build configuration list for PBXNativeTarget "SwiftVietnamTests" */;
+			buildPhases = (
+				7FCCA9AA24AA6D8500C7A421 /* Sources */,
+				7FCCA9AB24AA6D8500C7A421 /* Frameworks */,
+				7FCCA9AC24AA6D8500C7A421 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FCCA9B024AA6D8500C7A421 /* PBXTargetDependency */,
+			);
+			name = SwiftVietnamTests;
+			productName = SwiftVietnamTests;
+			productReference = 7FCCA9AE24AA6D8500C7A421 /* SwiftVietnamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7FCCA9B824AA6D8500C7A421 /* SwiftVietnamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FCCA9C824AA6D8500C7A421 /* Build configuration list for PBXNativeTarget "SwiftVietnamUITests" */;
+			buildPhases = (
+				7FCCA9B524AA6D8500C7A421 /* Sources */,
+				7FCCA9B624AA6D8500C7A421 /* Frameworks */,
+				7FCCA9B724AA6D8500C7A421 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FCCA9BB24AA6D8500C7A421 /* PBXTargetDependency */,
+			);
+			name = SwiftVietnamUITests;
+			productName = SwiftVietnamUITests;
+			productReference = 7FCCA9B924AA6D8500C7A421 /* SwiftVietnamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FCCA99524AA6D8300C7A421 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					7FCCA99C24AA6D8300C7A421 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					7FCCA9AD24AA6D8500C7A421 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 7FCCA99C24AA6D8300C7A421;
+					};
+					7FCCA9B824AA6D8500C7A421 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 7FCCA99C24AA6D8300C7A421;
+					};
+				};
+			};
+			buildConfigurationList = 7FCCA99824AA6D8300C7A421 /* Build configuration list for PBXProject "SwiftVietnam" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FCCA99424AA6D8300C7A421;
+			productRefGroup = 7FCCA99E24AA6D8300C7A421 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FCCA99C24AA6D8300C7A421 /* SwiftVietnam */,
+				7FCCA9AD24AA6D8500C7A421 /* SwiftVietnamTests */,
+				7FCCA9B824AA6D8500C7A421 /* SwiftVietnamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FCCA99B24AA6D8300C7A421 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FCCA9A824AA6D8500C7A421 /* Preview Assets.xcassets in Resources */,
+				7FCCA9A524AA6D8500C7A421 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FCCA9AC24AA6D8500C7A421 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FCCA9B724AA6D8500C7A421 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FCCA99924AA6D8300C7A421 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FCCA9A324AA6D8300C7A421 /* ContentView.swift in Sources */,
+				7F51EED324F743FC0092925D /* SafariView.swift in Sources */,
+				7FCCA9A124AA6D8300C7A421 /* SwiftVietnamApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FCCA9AA24AA6D8500C7A421 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FCCA9B324AA6D8500C7A421 /* SwiftVietnamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FCCA9B524AA6D8500C7A421 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FCCA9BE24AA6D8500C7A421 /* SwiftVietnamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FCCA9B024AA6D8500C7A421 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FCCA99C24AA6D8300C7A421 /* SwiftVietnam */;
+			targetProxy = 7FCCA9AF24AA6D8500C7A421 /* PBXContainerItemProxy */;
+		};
+		7FCCA9BB24AA6D8500C7A421 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FCCA99C24AA6D8300C7A421 /* SwiftVietnam */;
+			targetProxy = 7FCCA9BA24AA6D8500C7A421 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7FCCA9C024AA6D8500C7A421 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7FCCA9C124AA6D8500C7A421 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FCCA9C324AA6D8500C7A421 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftVietnam/Preview Content\"";
+				DEVELOPMENT_TEAM = H29F7N927C;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SwiftVietnam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftvietnam.SwiftVietnam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7FCCA9C424AA6D8500C7A421 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftVietnam/Preview Content\"";
+				DEVELOPMENT_TEAM = H29F7N927C;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SwiftVietnam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftvietnam.SwiftVietnam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7FCCA9C624AA6D8500C7A421 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H29F7N927C;
+				INFOPLIST_FILE = SwiftVietnamTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftvietnam.SwiftVietnamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftVietnam.app/SwiftVietnam";
+			};
+			name = Debug;
+		};
+		7FCCA9C724AA6D8500C7A421 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H29F7N927C;
+				INFOPLIST_FILE = SwiftVietnamTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftvietnam.SwiftVietnamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftVietnam.app/SwiftVietnam";
+			};
+			name = Release;
+		};
+		7FCCA9C924AA6D8500C7A421 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H29F7N927C;
+				INFOPLIST_FILE = SwiftVietnamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftvietnam.SwiftVietnamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftVietnam;
+			};
+			name = Debug;
+		};
+		7FCCA9CA24AA6D8500C7A421 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H29F7N927C;
+				INFOPLIST_FILE = SwiftVietnamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftvietnam.SwiftVietnamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftVietnam;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FCCA99824AA6D8300C7A421 /* Build configuration list for PBXProject "SwiftVietnam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FCCA9C024AA6D8500C7A421 /* Debug */,
+				7FCCA9C124AA6D8500C7A421 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FCCA9C224AA6D8500C7A421 /* Build configuration list for PBXNativeTarget "SwiftVietnam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FCCA9C324AA6D8500C7A421 /* Debug */,
+				7FCCA9C424AA6D8500C7A421 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FCCA9C524AA6D8500C7A421 /* Build configuration list for PBXNativeTarget "SwiftVietnamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FCCA9C624AA6D8500C7A421 /* Debug */,
+				7FCCA9C724AA6D8500C7A421 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FCCA9C824AA6D8500C7A421 /* Build configuration list for PBXNativeTarget "SwiftVietnamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FCCA9C924AA6D8500C7A421 /* Debug */,
+				7FCCA9CA24AA6D8500C7A421 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FCCA99524AA6D8300C7A421 /* Project object */;
+}
