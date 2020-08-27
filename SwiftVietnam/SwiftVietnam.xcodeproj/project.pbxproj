@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		7F51EED324F743FC0092925D /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F51EED224F743FC0092925D /* SafariView.swift */; };
+		7F51EED624F769F90092925D /* FeedKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7F51EED524F769F90092925D /* FeedKit */; };
 		7FCCA9A124AA6D8300C7A421 /* SwiftVietnamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCCA9A024AA6D8300C7A421 /* SwiftVietnamApp.swift */; };
 		7FCCA9A324AA6D8300C7A421 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCCA9A224AA6D8300C7A421 /* ContentView.swift */; };
 		7FCCA9A524AA6D8500C7A421 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FCCA9A424AA6D8500C7A421 /* Assets.xcassets */; };
@@ -54,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F51EED624F769F90092925D /* FeedKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +151,9 @@
 			dependencies = (
 			);
 			name = SwiftVietnam;
+			packageProductDependencies = (
+				7F51EED524F769F90092925D /* FeedKit */,
+			);
 			productName = SwiftVietnam;
 			productReference = 7FCCA99D24AA6D8300C7A421 /* SwiftVietnam.app */;
 			productType = "com.apple.product-type.application";
@@ -220,6 +225,9 @@
 				Base,
 			);
 			mainGroup = 7FCCA99424AA6D8300C7A421;
+			packageReferences = (
+				7F51EED424F769F90092925D /* XCRemoteSwiftPackageReference "FeedKit" */,
+			);
 			productRefGroup = 7FCCA99E24AA6D8300C7A421 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -584,6 +592,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7F51EED424F769F90092925D /* XCRemoteSwiftPackageReference "FeedKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nmdias/FeedKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.1.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7F51EED524F769F90092925D /* FeedKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F51EED424F769F90092925D /* XCRemoteSwiftPackageReference "FeedKit" */;
+			productName = FeedKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7FCCA99524AA6D8300C7A421 /* Project object */;
 }
