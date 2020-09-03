@@ -1,8 +1,5 @@
 //
-//  SwiftVietnamTests.swift
-//  SwiftVietnamTests
-//
-//  Created by An Tran on 29.06.20.
+//  Copyright © 2020 An Tran. All rights reserved.
 //
 
 import XCTest

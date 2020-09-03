@@ -1,29 +1,39 @@
 //
-//  Created by An Tran.
+//  Copyright © 2020 An Tran. All rights reserved.
 //
 
 import XCTest
 
 class SwiftVietnamUITests: XCTestCase {
 
-    var app: XCUIApplication!
+    override func setUpWithError() throws {
+        // Put setup code here. This method is called before the invocation of each test method in the class.
 
-    override func setUp() {
-        super.setUp()
+        // In UI tests it is usually best to stop immediately when a failure occurs.
+        continueAfterFailure = false
 
-        // UI tests must launch the application that they test.
-        app = XCUIApplication()
-        app.launch()
+        // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
     }
 
+    override func tearDownWithError() throws {
+        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    }
 
-    func testHappyFlow() {
-        // wait a little bit to load the remote RSS feed
-        sleep(3)
+    func testExample() throws {
+        // UI tests must launch the application that they test.
+        let app = XCUIApplication()
+        app.launch()
 
-        // Assert that the feed is loaded successfully
-        XCTAssertTrue(app.tables.buttons["Bản tin Swift Việt Nam #12"].exists)
-        XCTAssertTrue(app.tables.buttons["Bản tin Swift Việt Nam #11"].exists)
-        XCTAssertTrue(app.tables.buttons["Bản tin Swift Việt Nam #10"].exists)
+        // Use recording to get started writing UI tests.
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    }
+
+    func testLaunchPerformance() throws {
+        if #available(macOS 10.15, iOS 13.0, tvOS 13.0, *) {
+            // This measures how long it takes to launch your application.
+            measure(metrics: [XCTOSSignpostMetric.applicationLaunch]) {
+                XCUIApplication().launch()
+            }
+        }
     }
 }

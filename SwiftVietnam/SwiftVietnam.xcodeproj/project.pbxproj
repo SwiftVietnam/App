@@ -7,66 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7F51EED324F743FC0092925D /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F51EED224F743FC0092925D /* SafariView.swift */; };
-		7F51EED624F769F90092925D /* FeedKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7F51EED524F769F90092925D /* FeedKit */; };
-		7FCCA9A124AA6D8300C7A421 /* SwiftVietnamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCCA9A024AA6D8300C7A421 /* SwiftVietnamApp.swift */; };
-		7FCCA9A324AA6D8300C7A421 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCCA9A224AA6D8300C7A421 /* ContentView.swift */; };
-		7FCCA9A524AA6D8500C7A421 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FCCA9A424AA6D8500C7A421 /* Assets.xcassets */; };
-		7FCCA9A824AA6D8500C7A421 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FCCA9A724AA6D8500C7A421 /* Preview Assets.xcassets */; };
-		7FCCA9B324AA6D8500C7A421 /* SwiftVietnamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCCA9B224AA6D8500C7A421 /* SwiftVietnamTests.swift */; };
-		7FCCA9BE24AA6D8500C7A421 /* SwiftVietnamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCCA9BD24AA6D8500C7A421 /* SwiftVietnamUITests.swift */; };
+		7FDFFF3F2500A11500CF1CDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDFFF3E2500A11500CF1CDD /* AppDelegate.swift */; };
+		7FDFFF412500A11500CF1CDD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDFFF402500A11500CF1CDD /* SceneDelegate.swift */; };
+		7FDFFF432500A11500CF1CDD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDFFF422500A11500CF1CDD /* ContentView.swift */; };
+		7FDFFF452500A11700CF1CDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FDFFF442500A11700CF1CDD /* Assets.xcassets */; };
+		7FDFFF482500A11700CF1CDD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FDFFF472500A11700CF1CDD /* Preview Assets.xcassets */; };
+		7FDFFF4B2500A11700CF1CDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FDFFF492500A11700CF1CDD /* LaunchScreen.storyboard */; };
+		7FDFFF562500A11700CF1CDD /* SwiftVietnamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDFFF552500A11700CF1CDD /* SwiftVietnamTests.swift */; };
+		7FDFFF612500A11700CF1CDD /* SwiftVietnamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDFFF602500A11700CF1CDD /* SwiftVietnamUITests.swift */; };
+		7FDFFF6F2500A14A00CF1CDD /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDFFF6E2500A14A00CF1CDD /* SafariView.swift */; };
+		7FDFFF722500A16B00CF1CDD /* FeedKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7FDFFF712500A16B00CF1CDD /* FeedKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7FCCA9AF24AA6D8500C7A421 /* PBXContainerItemProxy */ = {
+		7FDFFF522500A11700CF1CDD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7FCCA99524AA6D8300C7A421 /* Project object */;
+			containerPortal = 7FDFFF332500A11500CF1CDD /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7FCCA99C24AA6D8300C7A421;
+			remoteGlobalIDString = 7FDFFF3A2500A11500CF1CDD;
 			remoteInfo = SwiftVietnam;
 		};
-		7FCCA9BA24AA6D8500C7A421 /* PBXContainerItemProxy */ = {
+		7FDFFF5D2500A11700CF1CDD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7FCCA99524AA6D8300C7A421 /* Project object */;
+			containerPortal = 7FDFFF332500A11500CF1CDD /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7FCCA99C24AA6D8300C7A421;
+			remoteGlobalIDString = 7FDFFF3A2500A11500CF1CDD;
 			remoteInfo = SwiftVietnam;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7F51EED224F743FC0092925D /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
-		7FCCA99D24AA6D8300C7A421 /* SwiftVietnam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftVietnam.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7FCCA9A024AA6D8300C7A421 /* SwiftVietnamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftVietnamApp.swift; sourceTree = "<group>"; };
-		7FCCA9A224AA6D8300C7A421 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		7FCCA9A424AA6D8500C7A421 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7FCCA9A724AA6D8500C7A421 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		7FCCA9A924AA6D8500C7A421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7FCCA9AE24AA6D8500C7A421 /* SwiftVietnamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftVietnamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7FCCA9B224AA6D8500C7A421 /* SwiftVietnamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftVietnamTests.swift; sourceTree = "<group>"; };
-		7FCCA9B424AA6D8500C7A421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7FCCA9B924AA6D8500C7A421 /* SwiftVietnamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftVietnamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7FCCA9BD24AA6D8500C7A421 /* SwiftVietnamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftVietnamUITests.swift; sourceTree = "<group>"; };
-		7FCCA9BF24AA6D8500C7A421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FDFFF3B2500A11500CF1CDD /* SwiftVietnam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftVietnam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FDFFF3E2500A11500CF1CDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7FDFFF402500A11500CF1CDD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7FDFFF422500A11500CF1CDD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7FDFFF442500A11700CF1CDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FDFFF472500A11700CF1CDD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7FDFFF4A2500A11700CF1CDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7FDFFF4C2500A11700CF1CDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FDFFF512500A11700CF1CDD /* SwiftVietnamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftVietnamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FDFFF552500A11700CF1CDD /* SwiftVietnamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftVietnamTests.swift; sourceTree = "<group>"; };
+		7FDFFF572500A11700CF1CDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FDFFF5C2500A11700CF1CDD /* SwiftVietnamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftVietnamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FDFFF602500A11700CF1CDD /* SwiftVietnamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftVietnamUITests.swift; sourceTree = "<group>"; };
+		7FDFFF622500A11700CF1CDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FDFFF6E2500A14A00CF1CDD /* SafariView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7FCCA99A24AA6D8300C7A421 /* Frameworks */ = {
+		7FDFFF382500A11500CF1CDD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F51EED624F769F90092925D /* FeedKit in Frameworks */,
+				7FDFFF722500A16B00CF1CDD /* FeedKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7FCCA9AB24AA6D8500C7A421 /* Frameworks */ = {
+		7FDFFF4E2500A11700CF1CDD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7FCCA9B624AA6D8500C7A421 /* Frameworks */ = {
+		7FDFFF592500A11700CF1CDD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,61 +80,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7FCCA99424AA6D8300C7A421 = {
+		7FDFFF322500A11500CF1CDD = {
 			isa = PBXGroup;
 			children = (
-				7FCCA99F24AA6D8300C7A421 /* SwiftVietnam */,
-				7FCCA9B124AA6D8500C7A421 /* SwiftVietnamTests */,
-				7FCCA9BC24AA6D8500C7A421 /* SwiftVietnamUITests */,
-				7FCCA99E24AA6D8300C7A421 /* Products */,
+				7FDFFF3D2500A11500CF1CDD /* SwiftVietnam */,
+				7FDFFF542500A11700CF1CDD /* SwiftVietnamTests */,
+				7FDFFF5F2500A11700CF1CDD /* SwiftVietnamUITests */,
+				7FDFFF3C2500A11500CF1CDD /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7FCCA99E24AA6D8300C7A421 /* Products */ = {
+		7FDFFF3C2500A11500CF1CDD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7FCCA99D24AA6D8300C7A421 /* SwiftVietnam.app */,
-				7FCCA9AE24AA6D8500C7A421 /* SwiftVietnamTests.xctest */,
-				7FCCA9B924AA6D8500C7A421 /* SwiftVietnamUITests.xctest */,
+				7FDFFF3B2500A11500CF1CDD /* SwiftVietnam.app */,
+				7FDFFF512500A11700CF1CDD /* SwiftVietnamTests.xctest */,
+				7FDFFF5C2500A11700CF1CDD /* SwiftVietnamUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7FCCA99F24AA6D8300C7A421 /* SwiftVietnam */ = {
+		7FDFFF3D2500A11500CF1CDD /* SwiftVietnam */ = {
 			isa = PBXGroup;
 			children = (
-				7FCCA9A024AA6D8300C7A421 /* SwiftVietnamApp.swift */,
-				7FCCA9A224AA6D8300C7A421 /* ContentView.swift */,
-				7FCCA9A424AA6D8500C7A421 /* Assets.xcassets */,
-				7FCCA9A924AA6D8500C7A421 /* Info.plist */,
-				7FCCA9A624AA6D8500C7A421 /* Preview Content */,
-				7F51EED224F743FC0092925D /* SafariView.swift */,
+				7FDFFF3E2500A11500CF1CDD /* AppDelegate.swift */,
+				7FDFFF402500A11500CF1CDD /* SceneDelegate.swift */,
+				7FDFFF422500A11500CF1CDD /* ContentView.swift */,
+				7FDFFF6E2500A14A00CF1CDD /* SafariView.swift */,
+				7FDFFF442500A11700CF1CDD /* Assets.xcassets */,
+				7FDFFF492500A11700CF1CDD /* LaunchScreen.storyboard */,
+				7FDFFF4C2500A11700CF1CDD /* Info.plist */,
+				7FDFFF462500A11700CF1CDD /* Preview Content */,
 			);
 			path = SwiftVietnam;
 			sourceTree = "<group>";
 		};
-		7FCCA9A624AA6D8500C7A421 /* Preview Content */ = {
+		7FDFFF462500A11700CF1CDD /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				7FCCA9A724AA6D8500C7A421 /* Preview Assets.xcassets */,
+				7FDFFF472500A11700CF1CDD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		7FCCA9B124AA6D8500C7A421 /* SwiftVietnamTests */ = {
+		7FDFFF542500A11700CF1CDD /* SwiftVietnamTests */ = {
 			isa = PBXGroup;
 			children = (
-				7FCCA9B224AA6D8500C7A421 /* SwiftVietnamTests.swift */,
-				7FCCA9B424AA6D8500C7A421 /* Info.plist */,
+				7FDFFF552500A11700CF1CDD /* SwiftVietnamTests.swift */,
+				7FDFFF572500A11700CF1CDD /* Info.plist */,
 			);
 			path = SwiftVietnamTests;
 			sourceTree = "<group>";
 		};
-		7FCCA9BC24AA6D8500C7A421 /* SwiftVietnamUITests */ = {
+		7FDFFF5F2500A11700CF1CDD /* SwiftVietnamUITests */ = {
 			isa = PBXGroup;
 			children = (
-				7FCCA9BD24AA6D8500C7A421 /* SwiftVietnamUITests.swift */,
-				7FCCA9BF24AA6D8500C7A421 /* Info.plist */,
+				7FDFFF602500A11700CF1CDD /* SwiftVietnamUITests.swift */,
+				7FDFFF622500A11700CF1CDD /* Info.plist */,
 			);
 			path = SwiftVietnamUITests;
 			sourceTree = "<group>";
@@ -138,13 +144,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7FCCA99C24AA6D8300C7A421 /* SwiftVietnam */ = {
+		7FDFFF3A2500A11500CF1CDD /* SwiftVietnam */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7FCCA9C224AA6D8500C7A421 /* Build configuration list for PBXNativeTarget "SwiftVietnam" */;
+			buildConfigurationList = 7FDFFF652500A11700CF1CDD /* Build configuration list for PBXNativeTarget "SwiftVietnam" */;
 			buildPhases = (
-				7FCCA99924AA6D8300C7A421 /* Sources */,
-				7FCCA99A24AA6D8300C7A421 /* Frameworks */,
-				7FCCA99B24AA6D8300C7A421 /* Resources */,
+				7FDFFF372500A11500CF1CDD /* Sources */,
+				7FDFFF382500A11500CF1CDD /* Frameworks */,
+				7FDFFF392500A11500CF1CDD /* Resources */,
 			);
 			buildRules = (
 			);
@@ -152,71 +158,72 @@
 			);
 			name = SwiftVietnam;
 			packageProductDependencies = (
-				7F51EED524F769F90092925D /* FeedKit */,
+				7FDFFF712500A16B00CF1CDD /* FeedKit */,
 			);
 			productName = SwiftVietnam;
-			productReference = 7FCCA99D24AA6D8300C7A421 /* SwiftVietnam.app */;
+			productReference = 7FDFFF3B2500A11500CF1CDD /* SwiftVietnam.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7FCCA9AD24AA6D8500C7A421 /* SwiftVietnamTests */ = {
+		7FDFFF502500A11700CF1CDD /* SwiftVietnamTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7FCCA9C524AA6D8500C7A421 /* Build configuration list for PBXNativeTarget "SwiftVietnamTests" */;
+			buildConfigurationList = 7FDFFF682500A11700CF1CDD /* Build configuration list for PBXNativeTarget "SwiftVietnamTests" */;
 			buildPhases = (
-				7FCCA9AA24AA6D8500C7A421 /* Sources */,
-				7FCCA9AB24AA6D8500C7A421 /* Frameworks */,
-				7FCCA9AC24AA6D8500C7A421 /* Resources */,
+				7FDFFF4D2500A11700CF1CDD /* Sources */,
+				7FDFFF4E2500A11700CF1CDD /* Frameworks */,
+				7FDFFF4F2500A11700CF1CDD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7FCCA9B024AA6D8500C7A421 /* PBXTargetDependency */,
+				7FDFFF532500A11700CF1CDD /* PBXTargetDependency */,
 			);
 			name = SwiftVietnamTests;
 			productName = SwiftVietnamTests;
-			productReference = 7FCCA9AE24AA6D8500C7A421 /* SwiftVietnamTests.xctest */;
+			productReference = 7FDFFF512500A11700CF1CDD /* SwiftVietnamTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7FCCA9B824AA6D8500C7A421 /* SwiftVietnamUITests */ = {
+		7FDFFF5B2500A11700CF1CDD /* SwiftVietnamUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7FCCA9C824AA6D8500C7A421 /* Build configuration list for PBXNativeTarget "SwiftVietnamUITests" */;
+			buildConfigurationList = 7FDFFF6B2500A11700CF1CDD /* Build configuration list for PBXNativeTarget "SwiftVietnamUITests" */;
 			buildPhases = (
-				7FCCA9B524AA6D8500C7A421 /* Sources */,
-				7FCCA9B624AA6D8500C7A421 /* Frameworks */,
-				7FCCA9B724AA6D8500C7A421 /* Resources */,
+				7FDFFF582500A11700CF1CDD /* Sources */,
+				7FDFFF592500A11700CF1CDD /* Frameworks */,
+				7FDFFF5A2500A11700CF1CDD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7FCCA9BB24AA6D8500C7A421 /* PBXTargetDependency */,
+				7FDFFF5E2500A11700CF1CDD /* PBXTargetDependency */,
 			);
 			name = SwiftVietnamUITests;
 			productName = SwiftVietnamUITests;
-			productReference = 7FCCA9B924AA6D8500C7A421 /* SwiftVietnamUITests.xctest */;
+			productReference = 7FDFFF5C2500A11700CF1CDD /* SwiftVietnamUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7FCCA99524AA6D8300C7A421 /* Project object */ = {
+		7FDFFF332500A11500CF1CDD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1200;
-				LastUpgradeCheck = 1200;
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "An Tran";
 				TargetAttributes = {
-					7FCCA99C24AA6D8300C7A421 = {
-						CreatedOnToolsVersion = 12.0;
+					7FDFFF3A2500A11500CF1CDD = {
+						CreatedOnToolsVersion = 11.7;
 					};
-					7FCCA9AD24AA6D8500C7A421 = {
-						CreatedOnToolsVersion = 12.0;
-						TestTargetID = 7FCCA99C24AA6D8300C7A421;
+					7FDFFF502500A11700CF1CDD = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 7FDFFF3A2500A11500CF1CDD;
 					};
-					7FCCA9B824AA6D8500C7A421 = {
-						CreatedOnToolsVersion = 12.0;
-						TestTargetID = 7FCCA99C24AA6D8300C7A421;
+					7FDFFF5B2500A11700CF1CDD = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 7FDFFF3A2500A11500CF1CDD;
 					};
 				};
 			};
-			buildConfigurationList = 7FCCA99824AA6D8300C7A421 /* Build configuration list for PBXProject "SwiftVietnam" */;
+			buildConfigurationList = 7FDFFF362500A11500CF1CDD /* Build configuration list for PBXProject "SwiftVietnam" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -224,39 +231,40 @@
 				en,
 				Base,
 			);
-			mainGroup = 7FCCA99424AA6D8300C7A421;
+			mainGroup = 7FDFFF322500A11500CF1CDD;
 			packageReferences = (
-				7F51EED424F769F90092925D /* XCRemoteSwiftPackageReference "FeedKit" */,
+				7FDFFF702500A16B00CF1CDD /* XCRemoteSwiftPackageReference "FeedKit" */,
 			);
-			productRefGroup = 7FCCA99E24AA6D8300C7A421 /* Products */;
+			productRefGroup = 7FDFFF3C2500A11500CF1CDD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7FCCA99C24AA6D8300C7A421 /* SwiftVietnam */,
-				7FCCA9AD24AA6D8500C7A421 /* SwiftVietnamTests */,
-				7FCCA9B824AA6D8500C7A421 /* SwiftVietnamUITests */,
+				7FDFFF3A2500A11500CF1CDD /* SwiftVietnam */,
+				7FDFFF502500A11700CF1CDD /* SwiftVietnamTests */,
+				7FDFFF5B2500A11700CF1CDD /* SwiftVietnamUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7FCCA99B24AA6D8300C7A421 /* Resources */ = {
+		7FDFFF392500A11500CF1CDD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FCCA9A824AA6D8500C7A421 /* Preview Assets.xcassets in Resources */,
-				7FCCA9A524AA6D8500C7A421 /* Assets.xcassets in Resources */,
+				7FDFFF4B2500A11700CF1CDD /* LaunchScreen.storyboard in Resources */,
+				7FDFFF482500A11700CF1CDD /* Preview Assets.xcassets in Resources */,
+				7FDFFF452500A11700CF1CDD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7FCCA9AC24AA6D8500C7A421 /* Resources */ = {
+		7FDFFF4F2500A11700CF1CDD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7FCCA9B724AA6D8500C7A421 /* Resources */ = {
+		7FDFFF5A2500A11700CF1CDD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -266,49 +274,61 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7FCCA99924AA6D8300C7A421 /* Sources */ = {
+		7FDFFF372500A11500CF1CDD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FCCA9A324AA6D8300C7A421 /* ContentView.swift in Sources */,
-				7F51EED324F743FC0092925D /* SafariView.swift in Sources */,
-				7FCCA9A124AA6D8300C7A421 /* SwiftVietnamApp.swift in Sources */,
+				7FDFFF6F2500A14A00CF1CDD /* SafariView.swift in Sources */,
+				7FDFFF3F2500A11500CF1CDD /* AppDelegate.swift in Sources */,
+				7FDFFF412500A11500CF1CDD /* SceneDelegate.swift in Sources */,
+				7FDFFF432500A11500CF1CDD /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7FCCA9AA24AA6D8500C7A421 /* Sources */ = {
+		7FDFFF4D2500A11700CF1CDD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FCCA9B324AA6D8500C7A421 /* SwiftVietnamTests.swift in Sources */,
+				7FDFFF562500A11700CF1CDD /* SwiftVietnamTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7FCCA9B524AA6D8500C7A421 /* Sources */ = {
+		7FDFFF582500A11700CF1CDD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FCCA9BE24AA6D8500C7A421 /* SwiftVietnamUITests.swift in Sources */,
+				7FDFFF612500A11700CF1CDD /* SwiftVietnamUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7FCCA9B024AA6D8500C7A421 /* PBXTargetDependency */ = {
+		7FDFFF532500A11700CF1CDD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7FCCA99C24AA6D8300C7A421 /* SwiftVietnam */;
-			targetProxy = 7FCCA9AF24AA6D8500C7A421 /* PBXContainerItemProxy */;
+			target = 7FDFFF3A2500A11500CF1CDD /* SwiftVietnam */;
+			targetProxy = 7FDFFF522500A11700CF1CDD /* PBXContainerItemProxy */;
 		};
-		7FCCA9BB24AA6D8500C7A421 /* PBXTargetDependency */ = {
+		7FDFFF5E2500A11700CF1CDD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7FCCA99C24AA6D8300C7A421 /* SwiftVietnam */;
-			targetProxy = 7FCCA9BA24AA6D8500C7A421 /* PBXContainerItemProxy */;
+			target = 7FDFFF3A2500A11500CF1CDD /* SwiftVietnam */;
+			targetProxy = 7FDFFF5D2500A11700CF1CDD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		7FDFFF492500A11700CF1CDD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FDFFF4A2500A11700CF1CDD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		7FCCA9C024AA6D8500C7A421 /* Debug */ = {
+		7FDFFF632500A11700CF1CDD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -334,7 +354,6 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -359,7 +378,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -369,7 +388,7 @@
 			};
 			name = Debug;
 		};
-		7FCCA9C124AA6D8500C7A421 /* Release */ = {
+		7FDFFF642500A11700CF1CDD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -395,7 +414,6 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -414,7 +432,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -424,17 +442,17 @@
 			};
 			name = Release;
 		};
-		7FCCA9C324AA6D8500C7A421 /* Debug */ = {
+		7FDFFF662500A11700CF1CDD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftVietnam/Preview Content\"";
 				DEVELOPMENT_TEAM = 36ML5F3NSU;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftVietnam/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -447,17 +465,17 @@
 			};
 			name = Debug;
 		};
-		7FCCA9C424AA6D8500C7A421 /* Release */ = {
+		7FDFFF672500A11700CF1CDD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftVietnam/Preview Content\"";
 				DEVELOPMENT_TEAM = 36ML5F3NSU;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftVietnam/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -470,15 +488,15 @@
 			};
 			name = Release;
 		};
-		7FCCA9C624AA6D8500C7A421 /* Debug */ = {
+		7FDFFF692500A11700CF1CDD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H29F7N927C;
+				DEVELOPMENT_TEAM = 36ML5F3NSU;
 				INFOPLIST_FILE = SwiftVietnamTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -492,15 +510,15 @@
 			};
 			name = Debug;
 		};
-		7FCCA9C724AA6D8500C7A421 /* Release */ = {
+		7FDFFF6A2500A11700CF1CDD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H29F7N927C;
+				DEVELOPMENT_TEAM = 36ML5F3NSU;
 				INFOPLIST_FILE = SwiftVietnamTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -514,12 +532,12 @@
 			};
 			name = Release;
 		};
-		7FCCA9C924AA6D8500C7A421 /* Debug */ = {
+		7FDFFF6C2500A11700CF1CDD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H29F7N927C;
+				DEVELOPMENT_TEAM = 36ML5F3NSU;
 				INFOPLIST_FILE = SwiftVietnamUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -534,12 +552,12 @@
 			};
 			name = Debug;
 		};
-		7FCCA9CA24AA6D8500C7A421 /* Release */ = {
+		7FDFFF6D2500A11700CF1CDD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H29F7N927C;
+				DEVELOPMENT_TEAM = 36ML5F3NSU;
 				INFOPLIST_FILE = SwiftVietnamUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -557,38 +575,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7FCCA99824AA6D8300C7A421 /* Build configuration list for PBXProject "SwiftVietnam" */ = {
+		7FDFFF362500A11500CF1CDD /* Build configuration list for PBXProject "SwiftVietnam" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7FCCA9C024AA6D8500C7A421 /* Debug */,
-				7FCCA9C124AA6D8500C7A421 /* Release */,
+				7FDFFF632500A11700CF1CDD /* Debug */,
+				7FDFFF642500A11700CF1CDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7FCCA9C224AA6D8500C7A421 /* Build configuration list for PBXNativeTarget "SwiftVietnam" */ = {
+		7FDFFF652500A11700CF1CDD /* Build configuration list for PBXNativeTarget "SwiftVietnam" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7FCCA9C324AA6D8500C7A421 /* Debug */,
-				7FCCA9C424AA6D8500C7A421 /* Release */,
+				7FDFFF662500A11700CF1CDD /* Debug */,
+				7FDFFF672500A11700CF1CDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7FCCA9C524AA6D8500C7A421 /* Build configuration list for PBXNativeTarget "SwiftVietnamTests" */ = {
+		7FDFFF682500A11700CF1CDD /* Build configuration list for PBXNativeTarget "SwiftVietnamTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7FCCA9C624AA6D8500C7A421 /* Debug */,
-				7FCCA9C724AA6D8500C7A421 /* Release */,
+				7FDFFF692500A11700CF1CDD /* Debug */,
+				7FDFFF6A2500A11700CF1CDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7FCCA9C824AA6D8500C7A421 /* Build configuration list for PBXNativeTarget "SwiftVietnamUITests" */ = {
+		7FDFFF6B2500A11700CF1CDD /* Build configuration list for PBXNativeTarget "SwiftVietnamUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7FCCA9C924AA6D8500C7A421 /* Debug */,
-				7FCCA9CA24AA6D8500C7A421 /* Release */,
+				7FDFFF6C2500A11700CF1CDD /* Debug */,
+				7FDFFF6D2500A11700CF1CDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -596,7 +614,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		7F51EED424F769F90092925D /* XCRemoteSwiftPackageReference "FeedKit" */ = {
+		7FDFFF702500A16B00CF1CDD /* XCRemoteSwiftPackageReference "FeedKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/nmdias/FeedKit.git";
 			requirement = {
@@ -607,12 +625,12 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		7F51EED524F769F90092925D /* FeedKit */ = {
+		7FDFFF712500A16B00CF1CDD /* FeedKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7F51EED424F769F90092925D /* XCRemoteSwiftPackageReference "FeedKit" */;
+			package = 7FDFFF702500A16B00CF1CDD /* XCRemoteSwiftPackageReference "FeedKit" */;
 			productName = FeedKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 7FCCA99524AA6D8300C7A421 /* Project object */;
+	rootObject = 7FDFFF332500A11500CF1CDD /* Project object */;
 }

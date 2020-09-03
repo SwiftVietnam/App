@@ -1,5 +1,5 @@
 //
-//  Copyright by An Tran.
+//  Copyright © 2020 An Tran. All rights reserved.
 //
 
 import SwiftUI
@@ -49,9 +49,9 @@ struct ContentView: View {
         private func parseFeed(_ feed: RSSFeed) {
             let newsItems = feed.items?.compactMap { rssFeedItem -> NewsItem? in
                 guard let title = rssFeedItem.title,
-                      let link = rssFeedItem.link,
-                      let url = URL(string: link) else {
-                    return nil
+                    let link = rssFeedItem.link,
+                    let url = URL(string: link) else {
+                        return nil
                 }
 
                 return NewsItem(
@@ -78,7 +78,7 @@ struct ContentView: View {
             List {
                 ForEach(viewModel.newsItems, id: \.self) { item in
                     Button(action: {
-                        viewModel.select(item.link)
+                        self.viewModel.select(item.link)
                     }) {
                         NewsItemView(item: item)
                     }
@@ -86,21 +86,21 @@ struct ContentView: View {
             }
             .sheet(item: .init(
                 get: {
-                    viewModel.link
-                },
+                    self.viewModel.link
+            },
                 set: {
-                    viewModel.select($0)
-                }
-            ), content: { link in
-                SafariView(url: link)
+                    self.viewModel.select($0)
+            }
+                ), content: { link in
+                    SafariView(url: link)
             })
-            .navigationTitle("Swift Việt Nam")
-            .navigationBarItems(
-                trailing: Button(action: {
-                    viewModel.loadFeed()
-                }) {
-                    Text("Load")
-                }
+                .navigationBarTitle(Text("Swift Việt Nam"))
+                .navigationBarItems(
+                    trailing: Button(action: {
+                        self.viewModel.loadFeed()
+                    }) {
+                        Text("Load")
+                    }
             )
         }
     }

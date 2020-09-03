@@ -1,5 +1,5 @@
 //
-//  Created by An Tran.
+//  Copyright © 2020 An Tran. All rights reserved.
 //
 
 import Foundation
